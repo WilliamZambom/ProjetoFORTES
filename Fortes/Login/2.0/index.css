@@ -1,0 +1,112 @@
+  body {
+    background-color: f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    font-weight: bold;
+  }
+  input{
+    background-color: D9D9D9;
+    border-radius: 100%;
+  }
+
+  
+  a{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .container-fundo{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  img {
+    opacity: 50%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .container {
+    margin-inline: 10%;
+    align-items: center;
+    grid-column: 2 / 3;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .form-container {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input{
+    border-radius: 50%;
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .login {
+    background-color: #11538C;
+    color: white;
+  }
+  
+  .login:hover {
+    background-color: #033E8C;
+  }
+  
+  .cadastro{
+    background-color: #11538C;
+    color: white;
+  }
+  
+  .cadastro:hover {
+    background-color: #033E8C;
+  }
+
+  .ajuda {
+    background-color: darkgray;
+    color: white;
+    margin-top: 15%;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .ajuda:hover {
+    background-color: grey;
+  }
